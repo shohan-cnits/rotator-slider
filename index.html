@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Rotator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slider hi-slide">
+        <div class="hi-prev"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="hi-next"><i class="fa-solid fa-arrow-right"></i></div>
+        <ul>
+            <li><img src="./image/slide_01.jpg" alt=""></li>
+            <li><img src="./image/slide_02.jpg" alt=""></li>
+            <li><img src="./image/slide_03.jpg" alt=""></li>
+            <li><img src="./image/slide_04.jpg" alt=""></li>
+            <li><img src="./image/slide_05.jpeg" alt=""></li>
+            <li><img src="./image/slide_06.jpeg" alt=""></li>
+            <li><img src="./image/slide07.jpg" alt=""></li>
+        </ul>
+
+    </div>
+
+    <!-- js -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./jquery.hislide.js"></script>
+
+    <script>
+        $('.slider').hiSlide();
+    </script>
+    <!-- js -->
+</body>
+
+</html>
